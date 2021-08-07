@@ -5,19 +5,18 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args){
 // girilen sayıya kadar olan 4 ve 5'in kuvvetlerini ekrana yazdıran program        
-        int num;
+        long num;
         Scanner sc= new Scanner(System.in);
-        num=sc.nextInt();
+        num=sc.nextLong();
 
-        for(int j=1,i= 1;i<=num||j<=num; i*=4,j*=5){
-            System.out.println(i);
+        for(long j=1,i= 1;i<=num; i*=4,j*=5){
+            System.out.print(i + " dördün katı  ");
             if(j>num){
-                break;
+                continue;
             }
-            System.out.println(j);
-            
+            System.out.println(j + " beşin katı");
+
         }
         sc.close();
-}
-    
+    }
 }
