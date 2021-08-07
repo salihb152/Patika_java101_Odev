@@ -1,6 +1,4 @@
 .vscode/settings.json
 
 .DS_Store
-bin/Girilen_Sayiya_Kadar_Olan_Cift_Sayilari_Bulan_Program/App.class
-bin/TekSayilarinToplami/App.class
-bin/DortveBesinKuvvetleriVeriliSayiyaKadar/App.class
+bin/*
