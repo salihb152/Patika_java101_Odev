@@ -7,7 +7,7 @@ public class App {
         Scanner sc= new Scanner(System.in);
         System.out.println("Ne kadar sayı girmek istiyorsunuz : ");
         int select=sc.nextInt();
-        int number=0;
+        int number;
         int temp1=Integer.MIN_VALUE;
         int temp2=Integer.MAX_VALUE;
         for(int i=1; i<=select; i++){
