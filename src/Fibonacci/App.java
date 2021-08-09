@@ -17,5 +17,6 @@ public class App {
             total=nextTotal;
             count++;
         }
+        sc.close();
     }
 }
