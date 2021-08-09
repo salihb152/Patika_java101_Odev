@@ -55,6 +55,8 @@ public class App {
                     System.out.println("Yanlış bir değer girdiniz, tekrar deneyiniz.");
             }
         } while (select != 0);
+        scan.close();
+
     }
 
 
@@ -71,6 +73,7 @@ public class App {
             result += number;
         }
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void minus() {
@@ -90,6 +93,7 @@ public class App {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void times() {
@@ -111,6 +115,7 @@ public class App {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void divided() {
@@ -134,6 +139,7 @@ public class App {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void power() {
@@ -149,6 +155,7 @@ public class App {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void factorial() {
@@ -162,6 +169,7 @@ public class App {
         }
 
         System.out.println("Sonuç : " + result);
+        scan.close();
     }
 
     static void mod() {
@@ -173,6 +181,7 @@ public class App {
         int num2=scan.nextInt();
         int result=num1%num2;
         System.out.println("Sonuc : "+result);
+        scan.close();
     }
     static void alan(){
         Scanner scan = new Scanner(System.in);
@@ -184,6 +193,7 @@ public class App {
         int result= num1*num2;
 
         System.out.println("Alan : "+ result);
+        scan.close();
     }
     static void cevre(){
         Scanner scan = new Scanner(System.in);
@@ -195,5 +205,6 @@ public class App {
         int result= (num1+num2)*2;
 
         System.out.println("Çevre : "+ result);
+        scan.close();
     }
 }
