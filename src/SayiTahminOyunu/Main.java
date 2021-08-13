@@ -56,6 +56,6 @@ public class Main {
                 System.out.println("Tahminleriniz : " + Arrays.toString(wrong));
             }
         }
-
+        input.close();
     }
 }
