@@ -271,14 +271,14 @@ class MineSweeper {
          return false;
      }
 // *************************************Oyun sahasını yazdır
-     void print(){
-         for(String[] arr: this.matris){
-             for(String s: arr){
-                 System.out.print(s);
-             }
-             System.out.println();
-         }
-     }
+    //  void print(){
+    //      for(String[] arr: this.matris){
+    //          for(String s: arr){
+    //              System.out.print(s);
+    //          }
+    //          System.out.println();
+    //      }
+    //  }
 //****************************** Güncel durumu yazdır
 
      void printCurrent(String[][] curArr){

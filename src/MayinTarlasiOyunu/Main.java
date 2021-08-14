@@ -14,7 +14,7 @@ public class Main {
         int column=scan.nextInt();
         if(column>=3&&row>=3){
             MineSweeper m=new MineSweeper(row, column);
-            m.print();
+            // m.print();
             m.run();
         }else{
             System.out.println("satır ve sütun 3 veya daha büyük olmalıdır");
